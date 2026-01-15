@@ -1,4 +1,4 @@
-Este repositório contém a tradução para o português brasileiro do cliente do Hytale.
+Este repositório contém a tradução não oficial para o português brasileiro do cliente do Hytale.
 
 Como instalar
 
