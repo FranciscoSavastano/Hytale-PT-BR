@@ -1,4 +1,5 @@
 # === assetEditor ===
+#Não tenho certeza se traduzir assets e outros e uma boa ideia, pode causar confusão, porem esta sendo feito de toda forma
 assetEditor.mainMenu.connection.connecting = Conectando ao servidor...
 assetEditor.mainMenu.connection.authenticating = Autenticando...
 assetEditor.mainMenu.title = Abrir editor
@@ -50,7 +51,7 @@ assetEditor.assetBrowser.tabs.cosmetics = Cosmeticos
 assetEditor.assetBrowser.tabs.server = Servidor
 assetEditor.assetBrowser.tabs.common = Comum
 assetEditor.assetBrowser.tooltips.collapseAll = Colapsar todas as pastas
-assetEditor.assetBrowser.tooltips.createNewAsset = Criar um novo asset
+assetEditor.assetBrowser.tooltips.createNewAsset = Criar novo asset
 assetEditor.assetBrowser.tooltips.filter = Filtrar
 assetEditor.assetBrowser.export = Exportar Asset
 assetEditor.assetBrowser.exportAndDiscard = Exportar Asset & Descartar
@@ -63,314 +64,315 @@ assetEditor.assetReferenceOrInlineEditor.useExisting = Referenciar asset existen
 assetEditor.assetReferenceOrInlineEditor.createEmbedded = Criar asset incorporado
 assetEditor.assetReferenceOrInlineEditor.reference = Referenciar a {assetType}
 
-assetEditor.assetDropdownEditor.openAssetTooltip = Open asset in new tab
-assetEditor.assetDropdownEditor.createAssetTooltip = Create and assign new {assetType}
+assetEditor.assetDropdownEditor.openAssetTooltip = Abrir asset em nova aba
+assetEditor.assetDropdownEditor.createAssetTooltip = Criar e atribuir novo {assetType}
 
-assetEditor.listEditor.empty = This list is empty
+assetEditor.listEditor.empty = Esta lista está vazia
 assetEditor.listEditor.header = {count} List Entries
-assetEditor.mapEditor.empty = This map is empty
+assetEditor.mapEditor.empty = Esta lista está vazia
 assetEditor.mapEditor.header = {count} Map Entries
 
 assetEditor.jsonObjectEditor.json = JSON
-assetEditor.jsonObjectEditor.jsonParseError = JSON: Failed to parse
+assetEditor.jsonObjectEditor.jsonParseError = JSON: Falha em parse
 
-assetEditor.changelogModal.newVersion = New
-assetEditor.changelogModal.title = What's new
+assetEditor.changelogModal.newVersion = Novo
+assetEditor.changelogModal.title = O que mudou
 
-assetEditor.backends.local = Editing: Local Assets
-assetEditor.backends.server = Editing: Server Assets
-assetEditor.backends.tooltip = Click to open export directory
+assetEditor.backends.local = Editando: Assets Locais
+assetEditor.backends.server = Editando: Assets do Servidor
+assetEditor.backends.tooltip = Clique para abrir diretório de exportação
 
 assetEditor.mode.editor = Editor
-assetEditor.mode.source = Source
+assetEditor.mode.source = Fonte
 
-assetEditor.editor.searchProperties = Search Properties
+assetEditor.editor.searchProperties = Buscar Propriedades
 
-assetEditor.property.title = Property "{name}"
+assetEditor.property.title = Propriedade "{name}"
 assetEditor.property.remove = Remove
-assetEditor.property.renameKey = Rename Key
-assetEditor.property.moveDown = Move Down
-assetEditor.property.moveUp = Move Up
-assetEditor.property.createEmbeddedAsset = Convert to Embedded Asset
-assetEditor.property.createDedicatedAsset = Convert to Dedicated Asset
-assetEditor.property.collapseAllEntries = Collapse All Entries
-assetEditor.property.uncollapseAllEntries = Uncollapse All Entries
-assetEditor.property.openAssetInNewTab = Open Asset in new Tab
-assetEditor.property.copyAndReferenceAsset = Copy and Reference Asset
-assetEditor.property.createAndReferenceAsset = Create and Reference Asset
-assetEditor.property.insertSiblingBefore = Insert Sibling Before
-assetEditor.property.insertSiblingAfter = Insert Sibling After
-assetEditor.property.list = List
-assetEditor.property.map = Map
-assetEditor.property.copyValue = Copy Value
-assetEditor.property.pasteValue = Paste Value
-assetEditor.property.map.insertLabel = Insert
-assetEditor.property.errors.keyAlreadyExists = This key is already used
+assetEditor.property.renameKey = Renomear Chave
+assetEditor.property.moveDown = Mover para Baixo
+assetEditor.property.moveUp = Mover para Cima
+assetEditor.property.createEmbeddedAsset = Converter para Asset Incorporado
+assetEditor.property.createDedicatedAsset = Converter para Asset dedicado
+assetEditor.property.collapseAllEntries = Colapsar todas as entradas
+assetEditor.property.uncollapseAllEntries = Descolapsar todas as entradas
+assetEditor.property.openAssetInNewTab = Abrir Asset em nova aba
+assetEditor.property.copyAndReferenceAsset = Copiar e Referenciar Asset
+assetEditor.property.createAndReferenceAsset = Criar e Referenciar Asset
+assetEditor.property.insertSiblingBefore = Inserir irmão antes
+assetEditor.property.insertSiblingAfter = Inserir irmão depois
+assetEditor.property.list = Lista
+assetEditor.property.map = Mapa
+assetEditor.property.copyValue = Copiar Valor
+assetEditor.property.pasteValue = Colar Valor
+assetEditor.property.map.insertLabel = Inserir
+assetEditor.property.errors.keyAlreadyExists = Esta chave já está em uso
 
-assetEditor.property.tooltip.arrayItem = Index: {index}
-assetEditor.property.tooltip.mapItem = Key: {key}
-assetEditor.property.tooltip.inheritedProperty = Inherited from {asset} => {value}
-assetEditor.property.tooltip.listEntries = {count} List Entries
+assetEditor.property.tooltip.arrayItem = Indice: {index}
+assetEditor.property.tooltip.mapItem = Chave: {key}
+assetEditor.property.tooltip.inheritedProperty = Herdado de {asset} => {value}
+assetEditor.property.tooltip.listEntries = {count} Listar Entries
 assetEditor.property.tooltip.objectEntries = {count} Object Entries
 
-assetEditor.configEditor.button.collapseAll = Collapse All
-assetEditor.configEditor.button.expandAll = Expand All
-assetEditor.configEditor.button.showDefinedProperties = Toggle: Show Defined Properties Only
+assetEditor.configEditor.button.collapseAll = Colapsar Tudo
+assetEditor.configEditor.button.expandAll = Expandir Tudo
+assetEditor.configEditor.button.showDefinedProperties = Toggle: Mostrar Apenas Propriedades Definidas
 assetEditor.configEditor.button.quickInspect = Quick Inspect
 
-assetEditor.sourceEditor.apply = Apply Changes
-assetEditor.sourceEditor.discard = Discard Changes
-assetEditor.sourceEditor.unsavedChangesModal.title = Unsaved Changes
-assetEditor.sourceEditor.unsavedChangesModal.text = There are unsaved changes in the code editor. Are you sure you want to continue?
-assetEditor.sourceEditor.unsavedChangesModal.discardChanges = Discard Changes
+assetEditor.sourceEditor.apply = Aplicar Alterações
+assetEditor.sourceEditor.discard = Descartar Alterações
+assetEditor.sourceEditor.unsavedChangesModal.title = Alterações não salvas
+assetEditor.sourceEditor.unsavedChangesModal.text = Há alterações não salvas no editor de código. Você tem certeza de que deseja continuar?
+assetEditor.sourceEditor.unsavedChangesModal.discardChanges = Descartar Alterações
 
-assetEditor.assetSelector.findAsset = Find Asset...
+assetEditor.assetSelector.findAsset = Encontrar Asset...
 
-assetEditor.fileSelector.placeholder = Select a File
-assetEditor.fileSelector.filesSelected = {count} Files Selected
-assetEditor.fileSelector.findFile = Find File...
-assetEditor.fileSelector.createDirectory = Create Folder
-assetEditor.fileSelector.newDirectoryNamePlaceholder = New Folder Name...
+assetEditor.fileSelector.placeholder = Selecione um Arquivo
+assetEditor.fileSelector.filesSelected = {count} Arquivos Selecionados
+assetEditor.fileSelector.findFile = Encontrar Arquivo...
+assetEditor.fileSelector.createDirectory = Criar Pasta
+assetEditor.fileSelector.newDirectoryNamePlaceholder = Nome da Nova Pasta...
 
-assetEditor.timelineEditor.insertAt = Insert value at {hour}
-assetEditor.timelineEditor.updateAt = Hour: {hour}\n\
+assetEditor.timelineEditor.insertAt = Inserir valor em {hour}
+assetEditor.timelineEditor.updateAt = Hora: {hour}\n\
 \n\
-Right-click to remove
+Clique com o botão direito para remover
 
-assetEditor.modal.applyChangesLocally = Also apply change locally
+assetEditor.modal.applyChangesLocally = Tambem aplicar alterações localmente
 
-assetEditor.deleteAssetModal.title = Delete Asset?
-assetEditor.deleteAssetModal.text = Are you sure you want to delete "{assetId}"?
-assetEditor.deleteAssetModal.confirmButton = Delete
+assetEditor.deleteAssetModal.title = Apagar Asset?
+assetEditor.deleteAssetModal.text = Tem certeza de que deseja apagar "{assetId}"?
+assetEditor.deleteAssetModal.confirmButton = Apagar
 
-assetEditor.deleteDirectoryModal.title = Delete Folder?
-assetEditor.deleteDirectoryModal.text = Are you sure you want to delete "{path}"?
-assetEditor.deleteDirectoryModal.confirmButton = Delete
+assetEditor.deleteDirectoryModal.title = Apagar Pasta?
+assetEditor.deleteDirectoryModal.text = Tem certeza de que deseja apagar "{path}"?
+assetEditor.deleteDirectoryModal.confirmButton = Apagar
 
-assetEditor.keyModal.renameTitle = Rename Key
-assetEditor.keyModal.insertTitle = Insert Key
-assetEditor.keyModal.renameButton = Rename
-assetEditor.keyModal.insertButton = Insert
-assetEditor.keyModal.errors.existingKey = An entry with this key already exists!
-assetEditor.keyModal.errors.invalidProperty = Invalid property
-assetEditor.keyModal.errors.fieldEmpty = Please enter a new key!
+assetEditor.keyModal.renameTitle = Renomear Chave
+assetEditor.keyModal.insertTitle = Inserir Chave
+assetEditor.keyModal.renameButton = Renomear
+assetEditor.keyModal.insertButton = Inserir
+assetEditor.keyModal.errors.existingKey = Uma entrada com esta chave já existe!
+assetEditor.keyModal.errors.invalidProperty = Propriedade invalida
+assetEditor.keyModal.errors.fieldEmpty = Por favor, insira uma nova chave!
 
-assetEditor.iconExporterModal.export = Save Icon
-assetEditor.iconExporterModal.reset = Reset to Defaults
-assetEditor.iconExporterModal.previewZoom = Preview Zoom
-assetEditor.iconExporterModal.rotationX = Rotation X
-assetEditor.iconExporterModal.rotationY = Rotation Y
-assetEditor.iconExporterModal.rotationZ = Rotation Z
-assetEditor.iconExporterModal.translationX = Position X
-assetEditor.iconExporterModal.translationY = Position Y
-assetEditor.iconExporterModal.scale = Scale
-assetEditor.iconExporterModal.errors.invalidConfig = This item is not properly set up to render a preview
+assetEditor.iconExporterModal.export = Salvar Icon
+assetEditor.iconExporterModal.reset = Resetar para os valores padrão
+assetEditor.iconExporterModal.previewZoom = Zoom de Preview
+assetEditor.iconExporterModal.rotationX = Rotacao X
+assetEditor.iconExporterModal.rotationY = Rotacao Y
+assetEditor.iconExporterModal.rotationZ = Rotacao Z
+assetEditor.iconExporterModal.translationX = Posicao X
+assetEditor.iconExporterModal.translationY = Posicao Y
+assetEditor.iconExporterModal.scale = Escala
+assetEditor.iconExporterModal.errors.invalidConfig = Este item nao esta configurado corretamente para renderizar uma preview
 
-assetEditor.renameModal.titleAsset = Rename Asset
-assetEditor.renameModal.titleFolder = Rename Folder
-assetEditor.renameModal.renameButton = Rename
-assetEditor.renameModal.newId = New Id
-assetEditor.renameModal.newName = New Name
-assetEditor.renameModal.errors.invalidId = Please enter a valid id. An ID can only contain letters and numbers, as well as _ for marking certain categories of ids.
-assetEditor.renameModal.warning = Warning: Renaming an asset will not change references to it in other JSON files. This action might break other assets.
+assetEditor.renameModal.titleAsset = Renomear Asset
+assetEditor.renameModal.titleFolder = Renomear Pasta
+assetEditor.renameModal.renameButton = Renomear
+assetEditor.renameModal.newId = Novo Id
+assetEditor.renameModal.newName = Novo Nome
+assetEditor.renameModal.errors.invalidId = Por favor, insira um id valido. Um ID pode conter apenas letras e números, bem como _ para marcar certas categorias de ids.
+assetEditor.renameModal.warning = Aviso: Renomear um asset nao alterara as referencias a ele em outros arquivos JSON. Esta acao pode quebrar outros assets.
 
-assetEditor.idValidation.empty = The id field cannot be empty
-assetEditor.idValidation.minLength = An id needs to consist out of at least {count} characters
-assetEditor.idValidation.maxLength = An id cannot consist out of more than {count} characters
-assetEditor.idValidation.onlyLettersAndDigits = An id can only contain letters and digits
-assetEditor.idValidation.firstUppercase = The first letter of an id or after an underscore must be uppercase
-assetEditor.idValidation.firstLetter = The first character of an id or after an underscore must be a letter
-assetEditor.idValidation.underscoreEmpty = An id cannot start or end with an underscore and an underscore cannot be followed by another underscore
+assetEditor.idValidation.empty = O campo id nao pode estar vazio
+assetEditor.idValidation.minLength = Um id precisa ter pelo menos {count} caracteres
+assetEditor.idValidation.maxLength = Um id nao pode ter mais de {count} caracteres
+assetEditor.idValidation.onlyLettersAndDigits = Um id pode conter apenas letras e numeros
+assetEditor.idValidation.firstUppercase = A primeira letra de um id ou depois de um underline deve ser maiuscula
+assetEditor.idValidation.firstLetter = A primeira letra de um id ou depois de um underline deve ser uma letra
+assetEditor.idValidation.underscoreEmpty = Um id nao pode comecar ou terminar com um underline e um underline nao pode ser seguido por outro underline
 
-assetEditor.createAssetModal.title = Create new {assetType} asset
+assetEditor.createAssetModal.title = Criar novo asset
 assetEditor.createAssetModal.assetPack = Asset Pack
-assetEditor.createAssetModal.assetType = Asset Type
-assetEditor.createAssetModal.folder = Folder
-assetEditor.createAssetModal.assetId = Unique Asset ID
-assetEditor.createAssetModal.assetIdHelp = Allowed characters: A-Z 0-9 _\\
-Examples: Wood_Ash_Roots, Zone3_Cloudy_Medium, Battleaxe_Swing_Left
-assetEditor.createAssetModal.copyAsset = Copy Asset
-assetEditor.createAssetModal.tab.properties = Properties
-assetEditor.createAssetModal.tab.source = Source
-assetEditor.createAssetModal.createButton = Create
-assetEditor.createAssetModal.assetPackDropdown.noEntries = Create a new Asset Pack first
-assetEditor.createAssetModal.errors.existingId = An asset with this id already exists!
-assetEditor.createAssetModal.errors.invalidAssetType = Invalid asset type
-assetEditor.createAssetModal.errors.noAssetPackSelected = An asset pack to create the asset in must be selected
+assetEditor.createAssetModal.assetType = Tipo de Asset
+assetEditor.createAssetModal.folder = Pasta
+assetEditor.createAssetModal.assetId = ID do Asset
+assetEditor.createAssetModal.assetIdHelp = Caracteres permitidos: A-Z 0-9 _\\
+Exemplos: Wood_Ash_Roots, Zone3_Cloudy_Medium, Battleaxe_Swing_Left
+#Aqui não devemos traduzir os exemplos pois são referencias a objetos internos, logo não tem tradução
+assetEditor.createAssetModal.copyAsset = Copiar Asset
+assetEditor.createAssetModal.tab.properties = Propriedades
+assetEditor.createAssetModal.tab.source = Fonte
+assetEditor.createAssetModal.createButton = Criar
+assetEditor.createAssetModal.assetPackDropdown.noEntries = Criar um novo Asset Pack primeiro
+assetEditor.createAssetModal.errors.existingId = Um asset com este id ja existe!
+assetEditor.createAssetModal.errors.invalidAssetType = Tipo de asset invalido
+assetEditor.createAssetModal.errors.noAssetPackSelected = Um asset pack para criar o asset deve ser selecionado
 
-assetEditor.exportModal.title = Recently Edited Assets
-assetEditor.exportModal.deselectAllButton = Deselect All
-assetEditor.exportModal.selectAllButton = Select All
-assetEditor.exportModal.exportButton = Export Selection
-assetEditor.exportModal.launcherAssetsWarning = Assets cannot be exported when using assets from the launcher!
-assetEditor.exportModal.discardChangesModal.title = Discard Changes?
-assetEditor.exportModal.discardChangesModal.text = Discard changes of {assetId} ({assetType})
-assetEditor.exportModal.discardChangesModal.confirmButton = Discard Changes
-assetEditor.exportModal.discardChangesCheckBox = Discard changes on server after export
-assetEditor.exportModal.discardChangesCheckBoxDescription = If this option is active, the original state of selected assets will be restored on the server by loading these assets from the assets folder again. This is useful when work on certain assets is complete and ready to be pushed to a repository, as these files will be removed from this list. If the server and client are sharing the same asset directory (e.g. in Singleplayer) then all this option does is remove these entries from the list above.
-assetEditor.exportModal.discardButtonTooltip = Discard Changes
-assetEditor.exportModal.columns.file = File
-assetEditor.exportModal.columns.lastChangeDate = Last Change
-assetEditor.exportModal.columns.lastChangeUsername = By
-assetEditor.exportModal.tooltips.deleted = Asset was deleted
-assetEditor.exportModal.tooltips.new = Asset was created
-assetEditor.exportModal.tooltips.renamed = Asset was renamed from {oldPath}
-assetEditor.exportModal.tooltips.changed = Asset was changed
+assetEditor.exportModal.title = Assets Recentes
+assetEditor.exportModal.deselectAllButton = Desmarcar Tudo
+assetEditor.exportModal.selectAllButton = Selecionar Tudo
+assetEditor.exportModal.exportButton = Exportar Seleção
+assetEditor.exportModal.launcherAssetsWarning = Assets nao podem ser exportados quando usando assets do launcher!
+assetEditor.exportModal.discardChangesModal.title = Descartar alterações?
+assetEditor.exportModal.discardChangesModal.text = Descartar alterações de {assetId} ({assetType})
+assetEditor.exportModal.discardChangesModal.confirmButton = Descartar alterações
+assetEditor.exportModal.discardChangesCheckBox = Descartar alterações no servidor após exportar
+assetEditor.exportModal.discardChangesCheckBoxDescription = Se esta opção estiver ativa, o estado original dos assets selecionados será restaurado no servidor carregando esses assets da pasta de assets novamente. Isso é útil quando o trabalho em certos assets está completo e pronto para ser empurrado para um repositório, pois esses arquivos serão removidos da lista acima. Se o servidor e o cliente estiverem compartilhando a mesma pasta de assets (por exemplo, em Singleplayer) então toda esta opção faz é remover essas entradas da lista acima.
+assetEditor.exportModal.discardButtonTooltip = Descartar alterações
+assetEditor.exportModal.columns.file = Arquivo
+assetEditor.exportModal.columns.lastChangeDate = Data da última alteração
+assetEditor.exportModal.columns.lastChangeUsername = Por
+assetEditor.exportModal.tooltips.deleted = Asset foi deletado
+assetEditor.exportModal.tooltips.new = Asset foi criado
+assetEditor.exportModal.tooltips.renamed = Asset foi renomeado de {oldPath}
+assetEditor.exportModal.tooltips.changed = Asset foi alterado
 
-assetEditor.filterModal.title = Filter by asset types
-assetEditor.filterModal.searchPlaceholder = Search Asset Types
+assetEditor.filterModal.title = Filtar por tipos de assets
+assetEditor.filterModal.searchPlaceholder = Procurar tipos de assets
 
-assetEditor.iconMassExportModal.title = Item Icon Mass Export
-assetEditor.iconMassExportModal.startButton = Start Export
+assetEditor.iconMassExportModal.title = Exportar ícones em massa
+assetEditor.iconMassExportModal.startButton = Iniciar exportação
 assetEditor.iconMassExportModal.statusLabel = Status:
-assetEditor.iconMassExportModal.iconSize = Icon Size
-assetEditor.iconMassExportModal.starting = Starting...
-assetEditor.iconMassExportModal.status = {completeCount}/{totalCount} – {percentage}% - {failedCount} Failed - {skippedCount} Skipped
+assetEditor.iconMassExportModal.iconSize = Tamanho do ícone
+assetEditor.iconMassExportModal.starting = Iniciando...
+assetEditor.iconMassExportModal.status = {completeCount}/{totalCount} – {percentage}% - {failedCount} Falhas - {skippedCount} Pulos
 
-assetEditor.errors.invalidAssetsDirectory = A valid assets directory must contain a Server and Common folder
+assetEditor.errors.invalidAssetsDirectory = Um diretório de assets válido deve conter uma pasta Server e Common
 assetEditor.errors.failedToFetchAsset = Failed to fetch asset "{path}"
 assetEditor.errors.failedToFetchParent = An error occurred fetching an asset parent
-assetEditor.errors.recursiveParent = Asset could not be loaded as some parent assets are referencing each other (cyclic dependency)
+assetEditor.errors.recursiveParent = Asset não pode ser carregado como alguns assets pais estão referenciando um ao outro (dependência cíclica)
 assetEditor.errors.errorOccurredFetching = An error occurred fetching this asset
-assetEditor.errors.assetNotFound = This asset does not exist
-assetEditor.errors.unknownAssetType = Unknown asset type "{assetType}"
-assetEditor.errors.fileFormatNotSupported = This file format is not supported
-assetEditor.errors.invalidJson = Invalid JSON
-assetEditor.errors.invalidAssetType = Invalid asset type
-assetEditor.errors.missingId = Please enter an id
-assetEditor.errors.failedExportErrors = Could not export assets because some contain validation errors
-assetEditor.errors.failedToSetupAssetTypes = Failed to set up asset types
-assetEditor.errors.failedToLoadAssetFiles = Failed to load asset files
-assetEditor.errors.failedToLoadCommonAssetFiles = Failed to load common asset files
-assetEditor.errors.failedToRenameAsset = Failed to rename asset
-assetEditor.errors.failedToDeleteAsset = Failed to delete asset
-assetEditor.errors.failedToCreateAsset = Failed to create asset
-assetEditor.errors.assetTypeNotSetupForEditor = This asset type is not set up to be edited from the editor interface
-assetEditor.errors.createDirectoryInvalidPath = Failed to create directory because it is not within the assets directory
-assetEditor.errors.createDirectoryExists = Failed to create directory because it already exists
-assetEditor.errors.createDirectoryOther = Failed to create directory
-assetEditor.errors.renameDirectoryInvalidPath = Failed to rename directory because it is not within the assets directory
-assetEditor.errors.renameDirectoryExists = Failed to rename directory because a directory with the same name already exists
-assetEditor.errors.renameDirectoryMissing = Failed to rename directory because the directory to rename does not exist
-assetEditor.errors.renameDirectoryOther = Failed to rename directory
-assetEditor.errors.deleteDirectoryInvalidPath = Failed to delete directory because it is not within the assets directory
-assetEditor.errors.deleteDirectoryMissing = Failed to delete directory because the directory does not exist
-assetEditor.errors.deleteDirectoryOther = Failed to delete directory
-assetEditor.errors.directoryInvalidCharacters = Directory names cannot include characters such as \ or /
-assetEditor.errors.exportInProgress = An export is still in progress
-assetEditor.errors.cannotRevealUnexportedAsset = Cannot show file in explorer/finder because the file has not been exported yet.
-assetEditor.errors.cannotPasteWrongType = Cannot paste value: invalid type
+assetEditor.errors.assetNotFound = Asset não encontrado
+assetEditor.errors.unknownAssetType = Tipo de asset desconhecido "{assetType}"
+assetEditor.errors.fileFormatNotSupported = Este formato de arquivo não é suportado
+assetEditor.errors.invalidJson = JSON Inválido
+assetEditor.errors.invalidAssetType = Tipo de asset inválido
+assetEditor.errors.missingId = Por favor, insira um id
+assetEditor.errors.failedExportErrors = Não foi possível exportar assets porque alguns contêm erros de validação
+assetEditor.errors.failedToSetupAssetTypes = Falha ao configurar tipos de asset
+assetEditor.errors.failedToLoadAssetFiles = Falha ao carregar arquivos de asset
+assetEditor.errors.failedToLoadCommonAssetFiles = Falha ao carregar arquivos de asset comuns
+assetEditor.errors.failedToRenameAsset = Falha ao renomear asset
+assetEditor.errors.failedToDeleteAsset = Falha ao deletar asset
+assetEditor.errors.failedToCreateAsset = Falha ao criar asset
+assetEditor.errors.assetTypeNotSetupForEditor = Este tipo de asset não está configurado para ser editado na interface do editor
+assetEditor.errors.createDirectoryInvalidPath = Falha ao criar diretório porque ele não está dentro do diretório de assets
+assetEditor.errors.createDirectoryExists = Falha ao criar diretório porque ele já existe
+assetEditor.errors.createDirectoryOther = Falha ao criar diretório
+assetEditor.errors.renameDirectoryInvalidPath = Falha ao renomear diretório porque ele não está dentro do diretório de assets
+assetEditor.errors.renameDirectoryExists = Falha ao renomear diretório porque um diretório com o mesmo nome já existe
+assetEditor.errors.renameDirectoryMissing = Falha ao renomear diretório porque o diretório a ser renomeado não existe
+assetEditor.errors.renameDirectoryOther = Falha ao renomear diretório
+assetEditor.errors.deleteDirectoryInvalidPath = Falha ao deletar diretório porque ele não está dentro do diretório de assets
+assetEditor.errors.deleteDirectoryMissing = Falha ao deletar diretório porque o diretório não existe
+assetEditor.errors.deleteDirectoryOther = Falha ao deletar diretório
+assetEditor.errors.directoryInvalidCharacters = Nomes de diretório não podem conter caracteres como \ ou /
+assetEditor.errors.exportInProgress = Uma exportação ainda está em progresso
+assetEditor.errors.cannotRevealUnexportedAsset = Não é possível mostrar arquivo no explorador/finder porque o arquivo ainda não foi exportado
+assetEditor.errors.cannotPasteWrongType = Não é possível colar valor: tipo inválido
 
-assetEditor.messages.assetExport.success = {count} assets have been saved
-assetEditor.messages.assetExport.none = No assets have been saved
-assetEditor.messages.assetExport.errors = Failed to save assets because some contain errors
-assetEditor.messages.assetExport.failedSaving = Failed to save assets
-assetEditor.messages.undoStackEmpty = Nothing to undo
-assetEditor.messages.redoStackEmpty = Nothing to redo
-assetEditor.messages.directoryDeleted = Directory was successfully deleted
-assetEditor.messages.directoryCreated = Directory was successfully created
+assetEditor.messages.assetExport.success = {count} assets foram salvo
+assetEditor.messages.assetExport.none = Nenhum asset foi salvo
+assetEditor.messages.assetExport.errors = Falha ao salvar assets porque alguns contêm erros
+assetEditor.messages.assetExport.failedSaving = Falha ao salvar assets
+assetEditor.messages.undoStackEmpty = Nada para desfazer
+assetEditor.messages.redoStackEmpty = Nada para refazer
+assetEditor.messages.directoryDeleted = Diretório foi deletado com sucesso
+assetEditor.messages.directoryCreated = Diretório foi criado com sucesso
 
-assetEditor.unexportedAssetsModal.quitTitle = Quit Client?
-assetEditor.unexportedAssetsModal.continueTitle = Continue?
-assetEditor.unexportedAssetsModal.text = There are unexported changes in the asset editor.
-assetEditor.unexportedAssetsModal.quitButton = Quit Anyway
-assetEditor.unexportedAssetsModal.continueButton = Continue Anyway
+assetEditor.unexportedAssetsModal.quitTitle = Sair do cliente?
+assetEditor.unexportedAssetsModal.continueTitle = Continuar?
+assetEditor.unexportedAssetsModal.text = Existem alterações não exportadas no editor de assets.
+assetEditor.unexportedAssetsModal.quitButton = Sair de qualquer forma
+assetEditor.unexportedAssetsModal.continueButton = Continuar de qualquer forma
 
-assetEditor.diagnosticsTooltip.errors = Errors:
-assetEditor.diagnosticsTooltip.warnings = Warnings:
-assetEditor.diagnosticsTooltip.hasChildErrors = Some child properties contain errors.
-assetEditor.diagnosticsTooltip.hasChildWarnings = Some child properties contain warnings.
+assetEditor.diagnosticsTooltip.errors = Erros:
+assetEditor.diagnosticsTooltip.warnings = Avisos:
+assetEditor.diagnosticsTooltip.hasChildErrors = Algumas propriedades filhas contêm erros.
+assetEditor.diagnosticsTooltip.hasChildWarnings = Algumas propriedades filhas contêm avisos.
 
-assetEditor.configEditor.errors.failedToLoad = Failed to load editor. Check log for more details
-assetEditor.configEditor.showAllProperties = Show All Properties
+assetEditor.configEditor.errors.failedToLoad = Falha ao carregar editor. Verifique o log para mais detalhes
+assetEditor.configEditor.showAllProperties = Mostrar todas as propriedades
 
-assetEditor.tabs.popup.close = Close
-assetEditor.tabs.popup.closeAll = Close All
-assetEditor.tabs.popup.copyId = Copy ID
+assetEditor.tabs.popup.close = Fechar
+assetEditor.tabs.popup.closeAll = Fechar todos
+assetEditor.tabs.popup.copyId = Copiar ID
 
-assetEditor.weatherDaytimeBar.togglePauseTime = Pause/Continue time
-assetEditor.weatherDaytimeBar.previousDay = Set to previous day
-assetEditor.weatherDaytimeBar.nextDay = Set to next day
-assetEditor.weatherDaytimeBar.lockTimeAndWeather = Click to toggle keeping current weather and time even after leaving asset editor
-assetEditor.weatherDaytimeBar.currentDay = Day {day, number}
+assetEditor.weatherDaytimeBar.togglePauseTime = Pausar/Continuar tempo
+assetEditor.weatherDaytimeBar.previousDay = Setar para o dia anterior
+assetEditor.weatherDaytimeBar.nextDay = Setar para o dia seguinte
+assetEditor.weatherDaytimeBar.lockTimeAndWeather = Clique para alternar entre manter o clima e o tempo atual mesmo após sair do editor de assets
+assetEditor.weatherDaytimeBar.currentDay = Dia {day, number}
 
-assetEditor.initializeButton.inactive = Initialize object
-assetEditor.initializeButton.active = Remove object
+assetEditor.initializeButton.inactive = Inicializar objeto
+assetEditor.initializeButton.active = Remover objeto
 
-assetEditor.fileSaveStatus.Saved = Changes Saved
-assetEditor.fileSaveStatus.Saving = Saving Changes...
-assetEditor.fileSaveStatus.Unsaved = Unsaved Changes
+assetEditor.fileSaveStatus.Saved = Alterações salvas
+assetEditor.fileSaveStatus.Saving = Salvando alterações...
+assetEditor.fileSaveStatus.Unsaved = Alterações não salvas
 
-assetEditor.options.title = Options
-assetEditor.options.disconnect = Disconnect from server
-assetEditor.options.exportItemIcons = Export Item Icons
-assetEditor.options.settings = Settings
+assetEditor.options.title = Opções
+assetEditor.options.disconnect = Desconectar do servidor
+assetEditor.options.exportItemIcons = Exportar ícones de itens
+assetEditor.options.settings = Configurações
 
 assetEditor.tabs.tooltip = {type} Asset\n\
 \n\
 Pack: {pack}
 
-assetEditor.packModal.title.edit = Edit Pack
-assetEditor.packModal.title.add = Add Pack
-assetEditor.packModal.readOnlyMessage = This pack is read-only and cannot be edited.
-assetEditor.packModal.editModeNote = Changing the Name or Group of an asset pack will only take effect after restarting the server.
-assetEditor.packModal.identifierChangeWarning = WARNING: You are changing the pack identifier (Name or Group). This change will take effect immediately but may cause unexpected behavior at runtime. Assets referencing this pack may become broken until the server is restarted.
-assetEditor.packModal.field.name = Name
-assetEditor.packModal.field.name.placeholder = Pack name (a unique identifier for the pack)
-assetEditor.packModal.field.group = Group
-assetEditor.packModal.field.group.placeholder = Pack group (e.g. Your Name)
-assetEditor.packModal.field.version = Version
+assetEditor.packModal.title.edit = Editar pacote
+assetEditor.packModal.title.add = Adicionar pacote
+assetEditor.packModal.readOnlyMessage = Este pacote é somente leitura e não pode ser editado.
+assetEditor.packModal.editModeNote = Alterar o nome ou grupo do pacote apenas afetará o pacote após reiniciar o servidor.
+assetEditor.packModal.identifierChangeWarning = AVISO: Você está alterando o identificador do pacote (Nome ou Grupo). Este mudança afetará imediatamente, mas pode causar comportamentos inesperados no runtime. Assets que referenciam este pacote podem se quebrar até que o servidor seja reiniciado.
+assetEditor.packModal.field.name = Nome
+assetEditor.packModal.field.name.placeholder = Nome do pacote (um identificador único para o pacote)
+assetEditor.packModal.field.group = Grupo
+assetEditor.packModal.field.group.placeholder = Grupo do pacote (ex. Seu Nome)
+assetEditor.packModal.field.version = Versão
 assetEditor.packModal.field.version.placeholder = 1.0.0 (semver)
 assetEditor.packModal.field.website = Website
-assetEditor.packModal.field.website.placeholder = Website URL (optional)
-assetEditor.packModal.field.description = Description
-assetEditor.packModal.field.description.placeholder = Pack description (optional)
-assetEditor.packModal.field.authors = Authors
-assetEditor.packModal.authors.add = + Add
-assetEditor.packModal.authors.empty = No authors added
-assetEditor.packModal.authors.entry = Author
-assetEditor.packModal.authors.name.placeholder = Name
-assetEditor.packModal.authors.email.placeholder = Email (optional)
-assetEditor.packModal.authors.url.placeholder = URL (optional)
-assetEditor.packModal.button.save = Save
-assetEditor.packModal.errors.nameRequired = Pack name is required
-assetEditor.packModal.errors.groupRequired = Pack group is required
-assetEditor.packModal.errors.versionRequired = Version is required
-assetEditor.packModal.errors.versionInvalid = Invalid version format. Use semantic versioning (e.g., 1.0.0, 2.1.3-beta, 1.0.0+build123)
+assetEditor.packModal.field.website.placeholder = Website URL (opcional)
+assetEditor.packModal.field.description = Descrição
+assetEditor.packModal.field.description.placeholder = Descrição do pacote (opcional)
+assetEditor.packModal.field.authors = Autores
+assetEditor.packModal.authors.add = + Adicionar
+assetEditor.packModal.authors.empty = Nenhum autor adicionado
+assetEditor.packModal.authors.entry = Autor
+assetEditor.packModal.authors.name.placeholder = Nome
+assetEditor.packModal.authors.email.placeholder = Email (opcional)
+assetEditor.packModal.authors.url.placeholder = URL (opcional)
+assetEditor.packModal.button.save = Salvar
+assetEditor.packModal.errors.nameRequired = Nome do pacote é obrigatório
+assetEditor.packModal.errors.groupRequired = Grupo do pacote é obrigatório
+assetEditor.packModal.errors.versionRequired = Versão é obrigatória
+assetEditor.packModal.errors.versionInvalid = Formato de versão inválido. Use semantic versioning (ex., 1.0.0, 2.1.3-beta, 1.0.0+build123)
 
-assetEditor.readOnlyAssetBar.message = This asset is read-only and cannot be edited, since the asset pack is read-only.
-assetEditor.readOnlyAssetBar.overrideButton = Override Asset
-assetEditor.readOnlyAssetBar.tooltip = This asset cannot be edited because the asset pack it is in is read-only.\n\
+assetEditor.readOnlyAssetBar.message = Este asset é somente leitura e não pode ser editado, já que o pacote de assets é somente leitura.
+assetEditor.readOnlyAssetBar.overrideButton = Substituir Asset
+assetEditor.readOnlyAssetBar.tooltip = Este asset não pode ser editado porque o pacote de assets que ele está em é somente leitura.\n\
 \n\
-Zipped asset packs cannot be edited, only directory based asset packs can be edited.\n\
+Os pacotes de assets compactados não podem ser editados, apenas pacotes de assets baseados em diretório podem ser editados.\n\
 \n\
-You can override assets through a custom asset pack.
+Você pode substituir assets através de um pacote de assets personalizado.
 
-assetEditor.inheritanceWarning.message = Warning: This asset has a Parent and inheritance is not yet supported in the property editor.
-assetEditor.inheritanceWarning.tooltip = This asset is inheriting properties from another asset (specified in the "Parent" property).\n\n\
-The property editor currently does not fully support inheritance and will only show you the properties defined in this asset. \n\n\
-Properties that use a value from the parent asset are marked with a *.
+assetEditor.inheritanceWarning.message = Aviso: Este asset tem um Parent e a herança ainda não é suportada no editor de propriedades.
+assetEditor.inheritanceWarning.tooltip = Este asset está herdando propriedades de outro asset (especificado na propriedade "Parent").\n\n\
+O editor de propriedades atualmente não suporta herança e mostrará apenas as propriedades definidas neste asset. \n\n\
+Propriedades que usam um valor do asset pai são marcadas com um *.
 
-assetEditor.managePacksMenu.editPack = Edit Pack
-assetEditor.managePacksMenu.addPack = Add Pack
-assetEditor.managePacksMenu.removePack = Remove Pack
+assetEditor.managePacksMenu.editPack = Editar pacote
+assetEditor.managePacksMenu.addPack = Adicionar pacote
+assetEditor.managePacksMenu.removePack = Remover pacote
 
 assetEditor.confirmationModal.typeToConfirm = Type "{value}" to confirm:
 
-assetEditor.deletePackModal.title = Delete Asset Pack?
-assetEditor.deletePackModal.text = Are you sure you want to delete the asset pack "{packId}"?\n\
+assetEditor.deletePackModal.title = Remover pacote?
+assetEditor.deletePackModal.text = Tem certeza de que deseja remover o pacote de assets "{packId}"?\n\
 \n\
-WARNING: This is a DANGEROUS operation!\n\
+AVISO: Esta é uma operação PERIGOSA!\n\
 \n\
-• All assets within this pack will be permanently deleted\n\
-• Deleting an asset pack at runtime can lead to unexpected behavior, crashes, or data corruption\n\
-• Any references to assets in this pack from other packs will become broken\n\
-• This action cannot be undone\n\
+• Todos os assets dentro deste pacote serão permanentemente excluídos\n\
+• Remover um pacote de assets no runtime pode levar a comportamentos inesperados, falhas ou corrupção de dados\n\
+• Referências a assets neste pacote de outros pacotes se tornarão quebradas\n\
+• Esta ação não pode ser desfeita\n\
 \n\
-Only proceed if you fully understand the consequences.
-assetEditor.deletePackModal.confirmButton = Delete Pack
+Apenas proceda se você entender completamente sabe o que está fazendo.
+assetEditor.deletePackModal.confirmButton = Remover pacote
 
-assetEditor.newAssetButton.readOnlyPackTooltip = You cannot create new assets because the selected asset pack is read-only.
+assetEditor.newAssetButton.readOnlyPackTooltip = Você não pode criar novos assets porque o pacote de assets selecionado é somente leitura.
 # === auth ===
 auth.sessionExpired.title = Session Expired
 auth.sessionExpired.message = Your session could not be refreshed. You have been switched to offline mode.\n\nYou can continue playing, but you won't be able to join servers or start new worlds until you restart the game.
